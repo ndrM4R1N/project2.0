@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adjustable Countdown Timer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <p>Created by Rayane Zorkane solution/
+        Project 2:countdown
+    </p>
+  </div>
+  <div class="container">
+    <div class="timer" id="display"></div>
+    <div class="input-container">
+      <input type="number" id="hours" placeholder="Hours" min="0">
+      <input type="number" id="minutes" placeholder="Minutes" min="0" max="59">
+      <input type="number" id="seconds" placeholder="Seconds" min="0" max="59">
+    </div>
+    <div class="button-container">
+      <button id="startBtn">Start</button>
+      <button id="pauseBtn">Pause</button>
+      <button id="resetBtn">Reset</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
